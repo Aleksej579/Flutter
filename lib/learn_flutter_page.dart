@@ -81,12 +81,12 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
                 children: [
                   Icon(
                     Icons.local_fire_department,
-                    color: Colors.blue,
+                    color: Colors.red,
                   ),
                   Text("Row widget"),
                   Icon(
                     Icons.local_fire_department,
-                    color: Colors.blue,
+                    color: Colors.red,
                   ),
                 ],
               ),

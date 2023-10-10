@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const int itemCount = 20;
+const int itemCount = 15;
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
