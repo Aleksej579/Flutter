@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/contact_page.dart';
+import 'package:flutter_application_1/catalog_page.dart';
 import 'package:flutter_application_1/home_page.dart';
 import 'package:flutter_application_1/profile_page.dart';
 
@@ -35,6 +36,7 @@ class _RootPageState extends State<RootPage> {
     HomePage(),
     ProfilePage(),
     ContactPage(),
+    CatalogPage(),
   ];
   @override
   Widget build(BuildContext context) {
@@ -55,6 +57,8 @@ class _RootPageState extends State<RootPage> {
           NavigationDestination(icon: Icon(Icons.person), label: "Profile"),
           NavigationDestination(
               icon: Icon(Icons.map_outlined), label: "Contact"),
+          NavigationDestination(
+              icon: Icon(Icons.book_online), label: "Catalog"),
         ],
         onDestinationSelected: (int index) {
           setState(() {

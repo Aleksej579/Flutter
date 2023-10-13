@@ -98,6 +98,17 @@ class _ContactPageState extends State<ContactPage> {
                       ),
               ],
             ),
+            ElevatedButton(
+              onPressed: () {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(
+                    content: Text("Pressed Follow on Instagram button"),
+                    duration: Duration(seconds: 3),
+                  ),
+                );
+              },
+              child: const Text("Open alert"),
+            ),
           ],
         ),
       ),
